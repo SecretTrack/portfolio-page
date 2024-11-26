@@ -132,7 +132,7 @@ p {
     width: 100%;
     height: 16vh;
     animation: animate 15s ease infinite;
-    padding: 50px 0 20px;
+    padding: 20px 0 20px;
 }
 
 .contact-message {
