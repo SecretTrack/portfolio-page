@@ -1,0 +1,95 @@
+@media (max-width: 1200px) {
+    .grid {
+        max-width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+        justify-items: center;
+    }
+
+    .top-container {
+        height: 32vh; 
+    }
+
+    .top-container h1 {
+        font-size: 2.5rem; 
+    }
+
+    .top-container h2 {
+        font-size: 0.6875rem; 
+        width: 65%;
+    }
+
+    .about-gabriel {
+        width: 100%; 
+        max-width: 600px; 
+        margin: auto; 
+    }
+
+    .grid-2 {
+        max-width: 100%;
+        grid-template-columns: 1fr; 
+        justify-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .top-container {
+        height: 30vh; 
+    }
+
+    .top-container h1 {
+        font-size: 2rem; 
+    }
+
+    .top-container h2 {
+        font-size: 0.75rem; 
+    }
+
+    .about-gabriel, .contact-me {
+        width: 90%; 
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .top-container {
+        height: auto; 
+    }
+
+    .top-container h1 {
+        font-size: 1.5rem; 
+    }
+
+    .top-container h2 {
+        font-size: 0.6875rem; 
+    }
+
+    .profile img {
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 0.875rem; 
+        padding: 8px 16px; 
+        width: 100%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .copyright {
+        font-size: 0.75rem;
+    }
+
+    .p {
+        margin: 1em;
+    }
+
+    .header ul li a {
+        padding: 0px 0px;
+    }
+
+    .title-text {
+        margin-top: 2%;
+    }
+}
