@@ -53,6 +53,7 @@
 @media (max-width: 600px) {
     .top-container {
         height: auto; 
+        padding: 20px 0;
     }
 
     .top-container h1 {
@@ -64,7 +65,9 @@
     }
 
     .profile img {
-        width: 80%;
+        width: 100%;
+        max-width: 200px; 
+        height: auto;
     }
 
     .btn {
@@ -75,10 +78,12 @@
 
     .grid {
         grid-template-columns: 1fr; 
+        padding: 10px;
     }
 
     .copyright {
         font-size: 0.75rem;
+        padding: 10px 0;
     }
 
     .p {
