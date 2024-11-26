@@ -98,4 +98,13 @@
     .title-text {
         margin-top: 2%;
     }
+
+.grid-2 {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .grid-2 img {
+        max-width: 200px;
+    }
 }
