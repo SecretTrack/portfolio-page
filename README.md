@@ -13,7 +13,7 @@ The portfolio contains sections including:
 - **Projects**: A showcase of my work, including interactive web applications.
 - **Contact**: A section to get in touch with me directly.
 
-You can check out the live version of the website at [my portfolio](https://secrettrack.github.io/portifolio-page/).
+You can check out the live version of the website at [my portfolio](https://secrettrack.github.io/portfolio-page/).
 
 ## Technologies Used
 
